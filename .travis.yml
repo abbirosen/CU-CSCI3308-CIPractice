@@ -1,4 +1,4 @@
 language: c
-sudo: required
 install: make dep
 target: make test
+sudo: required
