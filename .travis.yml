@@ -2,3 +2,4 @@ language: c
 install: make dep
 target: make test
 sudo: required
+script: make clean && make && make test
